@@ -1,0 +1,70 @@
+<!doctype html>
+
+<htlml lang="pt-br">
+
+	<head>
+		<title>Variáveis</title> 
+		<meta charset="utf-8" />
+
+		<script type="text/javascript">  //O tipo da variável não precisa ser informado, o tipo é definido pelo que está sendo atribuido a ela
+			//string
+			var texto = "Olá"; /* Pode usar aspas simples ou aspas duplas */
+
+			//var texto2 = prompt("Digite seu nome");
+
+			//float
+			var numeroFracionado = 10.7;
+
+			//inteiro
+			var numero = -7;
+
+			//boolean
+			var teste = true;
+
+			// Formas de mostrar resultados
+			/*alert(numeroFracionado); // mensagem na tela
+			document.write(texto); // mostra na página
+			console.log(numero); // Console do navegador */
+
+			//document.write(texto + " " + texto2 + " -> " + numero); // Pode concatenar diferentes tipos de variáveis
+
+			// Arrays
+
+			var lista_frutas = Array(); // ou var lista_frutas = [];
+
+			lista_frutas[1] = "Banana";
+			lista_frutas[2] = "Maça";
+			lista_frutas[3] = "Morango";
+			lista_frutas[4] = "Uva";
+
+			//alert(lista_frutas[4]);
+
+			var lista_legumes = Array("Brócolis", "Cenoura", "Couve-flor", "Abóbora"); // OU var lista_legumes = ["Brócolis", "Cenoura", "Couve-flor", "Abóbora"];
+
+			//alert(lista_legumes[0]);
+
+			// Arrays multidimessionais
+
+			var lista_coisas = Array();
+
+			lista_coisas["frutas"] = Array();
+			lista_coisas["pessoas"] = Array();
+
+			lista_coisas["frutas"][1] = "Banana";
+			lista_coisas["frutas"][2] = "Maça";
+			lista_coisas["frutas"][3] = "Morango";
+
+			lista_coisas["pessoas"][1] = "Ana";
+			lista_coisas["pessoas"][2] = "Jose";
+			lista_coisas["pessoas"][3] = "Pedro";
+
+			document.write(lista_coisas["frutas"][2]);
+			document.write(lista_coisas["pessoas"][3]);
+		</script> 
+
+	</head>
+
+	<body>
+
+	</body>
+</htlml>

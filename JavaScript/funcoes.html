@@ -1,0 +1,32 @@
+<!doctype html>
+
+<htlml lang="pt-br">
+
+	<head>
+		<title>Funções</title> 
+		<meta charset="utf-8" />
+
+		<script type="text/javascript">  
+
+			function calculaAreaTerreno(largura, comprimento){
+				largura = parseFloat(largura);
+				comprimento = parseFloat(comprimento);
+
+				var area = largura * comprimento;
+				return area;
+			}
+
+			var largura = prompt("Digite a largura do terreno.");
+			var comprimento = prompt("Digite o comprimento do terreno.");
+			var areaTerreno = calculaAreaTerreno(largura, comprimento);
+
+			document.write("O terreno possui " + areaTerreno + " metros quadrados.");
+			
+		</script> 
+
+	</head>
+
+	<body>
+		
+	</body>
+</htlml>

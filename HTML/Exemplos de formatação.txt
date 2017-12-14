@@ -1,0 +1,4 @@
+Esse é um texto <strong>negrito</strong><br />
+		Esse é um texto <em>itálico</em> <br />
+		Esse é um texto com <u>underline</u> <br />
+		Esse é um texto <strike>errado</strike>

@@ -1,0 +1,60 @@
+<!doctype html>
+
+<htlml lang="pt-br">
+
+	<head>
+		<title>Introdução ao HTML 5</title>
+		<meta charset="utf-8" />
+
+	</head>
+
+	<body>
+		<form>
+			<!-- Associar label com os elementos - Boas práticas-->
+			<LABEL for="nome">Nome</LABEL>
+			<input type="text" id="nome" required>
+			<br><br>
+
+			<!-- Novos inputs e atributos HTML 5 -->
+			<!-- Email -->
+			<label for="email">E-mail</label>
+			<input type="email" id="email" placeholder="email@teste.com.br" required autofocus>
+			<br><br>
+
+			<!-- Número -->
+			<label for="numero">Número</label>
+			<input type="number" id="numero" min="5" max="10" step="2">
+			<br><br>
+
+			<!-- Url -->
+			<label for="numero">Url</label>
+			<input type="url" id="url" placeholder="ex: http://www.google.com.br">
+			<br><br>
+
+			<!-- Pesquisar -->
+			<label for="pesquisar">Pesquisar</label>
+			<input type="search" id="pesquisar" placeholder="ex: digite algo">
+			<br><br>
+
+			<!-- Range -->
+			<label for="range">Range</label>
+			<input type="range" id="range" min="1" max="10" value="5">
+			<br><br>
+
+			<!-- Data -->
+			<label for="data">Data</label>
+			<input type="date" id="data">
+			<br><br>
+
+			<!-- Cor -->
+			<label for="cor">Cor</label>
+			<input type="color" id="cor">
+			<br><br>
+
+			<input type="submit" value="Enviar" name="">
+
+		</form>
+		
+	</body>
+
+</htlml>
